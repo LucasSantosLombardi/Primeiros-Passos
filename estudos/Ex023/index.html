@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatomia de Tabelas</title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 500px;
+        
+    }
+    .color {
+        background-color: gray;
+        color: black;
+    }
+
+    th,td{
+        border: 1px solid black;
+        padding: 20px;
+        
+    }
+
+
+    .num {
+        text-align: right;
+        
+    }
+
+</style>
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <th class="color"> Estado</th>
+                <th class="color">População</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46 081 801</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 393 441	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 223 547	</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 870 907	</td>
+            </tr>
+            <tr>
+                <td>Savador</td>
+                <td class="num">11 890 517		</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+
+            <tr>
+                <th class="color">Total</th>
+                <th class="num color">111.460.213</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
