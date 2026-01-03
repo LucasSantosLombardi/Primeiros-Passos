@@ -11,10 +11,15 @@
         width: 500px;
         
     }
-    .color {
+    tbody > tr:nth-child(2n) {
+        background-color: black;
+        color: white;
+    
+    }
+    .color { 
         background-color: gray;
         color: black;
-    }
+        }
 
     th,td{
         border: 1px solid black;
@@ -35,7 +40,7 @@
         <thead>
             <tr>
                 <th class="color"> Estado</th>
-                <th class="color">População</th>
+                <th class="color" style="width: 50px;">População</th>
             </tr>
 
         </thead>
